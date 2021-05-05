@@ -1,0 +1,30 @@
+* {
+    margin: 300;
+    padding: 100;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+   body {
+       background-image: linear-gradient(to right, #bdc3c7 , #2c3e50) ;
+       /* background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       opacity: 0.5; */
+       
+   }
+
+   .footer {
+       justify-content: space-evenly;
+       
+   }
+
+   footer {
+       justify-content: space-between;
+       padding: 3%
+   }
+
+   footer p {
+       text-align: center;
+
+   }
