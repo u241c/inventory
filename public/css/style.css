@@ -28,3 +28,9 @@
        text-align: center;
 
    }
+
+   .mb-3 {
+       text-align: center;
+       
+       margin: 25px;
+   }
