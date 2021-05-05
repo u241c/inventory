@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <title></title>
+</head>
+
+<body>
+  <h1>Manufacturing Product File</h1>
+  <!-- <div style = "position:relative; top:100px;"> -->
+    
+  <% inventorys.forEach((n) => {%>
+
+    <p>Name: <%=n.name%></p>
+    <p>Category: <%=n.category%></p>
+    
+    <form action="/inventorys/<%=n._id%>?_method=PUT" method="POST">
+      <input type="text" name="name" /> 
+      <input type="submit" value="EDIT" />
+      </form>
+   
+    <form action="/inventorys/<%=n._id%>?_method=DELETE" method="POST">
+      <input type="submit" value="DELETE" />
+      </form>
+    
+    <%}); %>
+    <a href="/inventorys/new/">Inventory Lookup</a>
+    <footer class="">
+      <p>Copyright &copy; All Right Reserved 2021 NewsFeed</p>
+  </footer>   
+</body>
+
+</html>
