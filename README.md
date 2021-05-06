@@ -22,7 +22,7 @@ A simple app that performes CRUD, Named Manufacturing Inventory Manager. This ap
 
 ## Getting started  🚴🏽‍♂️
 
-[Click]" ) here to get started and see the app online!
+[Click](https://inv-manager-app.herokuapp.com/inventorys) here to get started and see the app online!
 
 
 ## Future Enhancements  🛠
