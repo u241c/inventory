@@ -4,6 +4,7 @@ A simple app that performes CRUD, Named Manufacturing Inventory Manager. This ap
 
 ## Technologies Used  ⚙️
 
+- Bootstrap
 - CSS3
 - HTML
 - JS

@@ -20,7 +20,7 @@
   <% inventorys.forEach((n) => {%>
     
     <p>Name: <%=n.name%></p>
-    <p>Category: <%=n.category%></p>
+    <p>Quantity: <%=n.quantity%></p>
 
     
     <form action="/inventorys/<%=n._id%>?_method=PUT" method="POST">
