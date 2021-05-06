@@ -9,21 +9,21 @@
 </head>
 
 <body>
-  <img src="../../images/inv.png"/>
+  <img src="../../images/inv.png" width="100%"/>
   
   <div class="mb-3">
   <h1>ADD Product</h1>
-  
+  <div class="card">
   <form id="inventorys-form" action="/inventorys" method="POST">
     <label for="name">Product Name:</label>
     <input type="text" name="name" /> 
-    
-    <label for="Quantity">Quantity:</label>
+  
+    <label for="quantity">Quantity:</label>
     <input type="text" name="category" /> 
     <div id="sub-btn"> 
-      <input type="submit" value="Submit" />
+      <input type="submit" value="Submit" class="btn btn-primary" />
    </div>
-   
+  </div>
    </form>
    <footer class="fixed-bottom">
     <p>Copyright &copy; All Right Reserved 2021 Inventory Manager</p>

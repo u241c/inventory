@@ -34,3 +34,8 @@
        
        margin: 25px;
    }
+   .card {
+       background-color: grey;
+       height: 32px;
+       
+   }
